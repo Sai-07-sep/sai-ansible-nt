@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: yes
+  tasks: 
+   - name: install webserver on ubuntu nodes
+     apt:
+      name: apache2
+      state: present
+     when: anisble_os_family =="Debian"
+   
+   - name: i want to start webserver on ubuntu nodes
+     service:
+      name: apache2
+      state: started
+     when: anisble_os_family =="Debian"
