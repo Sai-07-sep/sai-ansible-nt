@@ -15,7 +15,10 @@
 172.31.31.212
 
 
-
+[mywebserveron:vars]
+var= value
+mywebserveronubuntu=apache2
+mywebserveronRedHat=httpd
 
 
 
