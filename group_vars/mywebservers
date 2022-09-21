@@ -1,0 +1,6 @@
+---
+
+
+var: value
+mywebpackonubuntu: apache2
+mywebpackonRedHat: httpd
