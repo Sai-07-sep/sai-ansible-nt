@@ -15,10 +15,10 @@
 172.31.31.212
 
 
-[mywebserveron:vars]
-var= value
-mywebpackonubuntu= apache22222222222
-mywebpackonRedHat= httpd
+[mywebservers:vars]
+var=value
+mywebpackonubuntu=apache22222222222
+mywebpackonRedHat=httpd
 
 
 
