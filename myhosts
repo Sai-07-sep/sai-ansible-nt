@@ -17,8 +17,8 @@
 
 [mywebserveron:vars]
 var= value
-mywebserveronubuntu=apache22222222222
-mywebserveronRedHat=httpd
+mywebserveronubuntu= apache22222222222
+mywebserveronRedHat= httpd
 
 
 
