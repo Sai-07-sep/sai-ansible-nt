@@ -3,5 +3,6 @@
   become: yes
   tasks:
    - name: execute linux commands
-     commands: hostname -f
-     register: myresult
+     commands: 
+      name: hostname -f
+    
