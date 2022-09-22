@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: install java on ubuntu nodes
+    apt:
+     name: openjdk-8-jre
+     state: present
+    when: ansible_os_family=="Debian"
