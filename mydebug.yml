@@ -5,8 +5,3 @@
    - name: execute linux commands
      commands: hostname -f
      register: myresult
-
-   - name: i want to display first task result
-     debug:
-       msg: "{{myresult}}"
-
