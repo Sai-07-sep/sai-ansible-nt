@@ -2,7 +2,6 @@
 - hosts: 172.31.31.78
   become: yes
   tasks:
-   - name: execute linux commands
-     commands: 
-      name: hostname -f
+   - name: execute linux directly
+     commands: hostname -f
     
