@@ -4,4 +4,10 @@
   tasks:
    - name: execute linux directly
      command: hostname -f
-    
+     register: myresult
+
+   - name: i want tro display first task result
+     debug:
+       msg: "{{myresult}}"
+
+
