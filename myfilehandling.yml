@@ -10,5 +10,5 @@
 
    - name: i want to copy files
      copy:
-      src: my state file
+      src: mystaticfile
       dest: /home/ubuntu/mystaticfile.txt
