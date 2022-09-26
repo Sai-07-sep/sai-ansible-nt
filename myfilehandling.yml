@@ -22,3 +22,10 @@
      template:
       src: myindex.j2
       dest: /var/www/html/index.html   
+
+   
+- name: download internet files
+  get_url:
+    url: https://get.jenkins.io/war-stable/2.361.1/jenkins.war
+    dest: /home/ubuntu
+    force_basic_auth: yes   
