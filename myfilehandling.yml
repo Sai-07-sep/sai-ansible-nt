@@ -24,7 +24,7 @@
       dest: /var/www/html/index.html   
 
    
-- name: download internet files
+- name: download jenkins.war files
   get_url:
     url: https://get.jenkins.io/war-stable/2.361.1/jenkins.war
     dest: /home/ubuntu/jenkins.war
