@@ -8,13 +8,13 @@
       state: present
      tags: my git
 
-   - name: tree
+   - name: install tree
      apt:
       name: tree
       state: present
      tags: my tree
 
-   - name: wget
+   - name: install wget
      apt:
       name: wget
       state: present
