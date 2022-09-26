@@ -1,9 +1,5 @@
 ---
-- hosts: all
+- hosts: 172.31.31.78
   become: yes
   tasks:
-   - name: create a file
-     file:
-      path: /home/ubuntu
-      state: touch
-      
+   - includes_tasks: myfiles.yml
