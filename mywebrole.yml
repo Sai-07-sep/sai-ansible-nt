@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.31.78
+- hosts: mywebservers
   become: yes
   roles:
-   -{role:mywebrole,when:ansible_os_family== "Debian"}
+   - {role: mywebrole, when: ansible_os_family== "Debian"}
