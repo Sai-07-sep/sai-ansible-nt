@@ -2,5 +2,5 @@
 - name: grant tomcat ownership
   command: sudo chown -R tomcat:tomcat /opt/tomcat/
 
-- name: execute on a permission as bin folder
+- name: execute permission on bin folder
   command: sudo chmod -R u+x /opt/tomcat/bin 
