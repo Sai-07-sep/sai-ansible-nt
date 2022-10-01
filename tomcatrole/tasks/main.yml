@@ -3,6 +3,6 @@
  - include_tasks: adduser.yml
  - include_tasks: install java.yml
  - include_tasks: download.yml
- - include_tasks: permissions.yml
+ - include_tasks: permission.yml
  - include_tasks: dashboard.yml
  - include_tasks: starttomcat.yml
