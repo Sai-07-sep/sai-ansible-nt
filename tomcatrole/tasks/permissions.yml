@@ -3,4 +3,4 @@
   command: sudo chown -R tomcat:tomcat /opt/tomcat/
 
 - name: execute permission on bin folder
-  command: sudo chmod -R u+x /opt/tomcat/bin 
+  command: sudo chmod -R u+x /opt/tomcat/bin
