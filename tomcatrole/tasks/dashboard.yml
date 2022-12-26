@@ -17,4 +17,4 @@
 - name: copy tomcat service file into node server
   templates:
      src: templates/mytomservice.j2
-     dest: /etc/systemd/system/tomcat.service    
+     dest: /etc/systemd/system/tomcat.service   
