@@ -14,7 +14,7 @@
      src: template/mytomhostcontext.j2
      dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml      
 
-- name: copy tomcat serveice 
+- name: copy tomcat serveice  file into node side
   templates:
      src: template/mytomservice.j2
      dest: /etc/systemd/system/tomcat.service   
